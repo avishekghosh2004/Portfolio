@@ -13,6 +13,7 @@ const Skills = () => {
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
             {skill}
           </li>
+          
         ))}
       </ul>
     </section>
